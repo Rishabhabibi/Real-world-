@@ -1,1 +1,219 @@
-# Real-world-
+# Real-world-<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Real World - Royal Green</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');:root {
+  --primary-color: #00b386;
+  --background-color: #0b0f0c;
+  --card-color: #13231b;
+  --text-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(90deg, #000, #001a12);
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  text-shadow: 1px 1px 8px var(--primary-color);
+}
+nav {
+  background: #121712;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 2rem;
+  border-bottom: 1px solid var(--primary-color);
+}
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: white;
+  text-shadow: 0 0 5px var(--primary-color);
+}
+section.hero {
+  padding: 5rem 1rem;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1602516000734-b7c25cb44670?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.4rem;
+  max-width: 700px;
+  margin: auto;
+}
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  color: #000;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.cta:hover {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 10px var(--primary-color);
+}
+.section-box {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--card-color);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 179, 134, 0.2);
+}
+.section-box h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+.section-box input,
+.section-box textarea,
+.section-box button {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+.section-box textarea {
+  resize: none;
+  height: 120px;
+}
+.section-box button {
+  background: var(--primary-color);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section-box button:hover {
+  background: #fff;
+}
+ul li {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.testimonial {
+  margin: 1rem 0;
+  background: #0d1a14;
+  padding: 1rem;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 8px;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #111;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--primary-color);
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    THE REAL WORLD
+  </header>  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#login">Login</a>
+    <a href="#signup">Join</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#chat">Chat</a>
+    <a href="#payment">Payment</a>
+  </nav>  <section class="hero">
+    <h1>Break Free from the Matrix</h1>
+    <p>Over <strong>1000+ students</strong> have enrolled and made <strong>thousands of dollars</strong> with these exact strategies.</p>
+    <div class="testimonial">
+      "I made my first ₹30,000 in 2 weeks after the Dropshipping course!" — <strong>Aryan M.</strong>
+    </div>
+    <div class="testimonial">
+      "The ChatGPT business module gave me the edge to freelance like a pro!" — <strong>Divya S.</strong>
+    </div>
+    <a href="#signup" class="cta">Join Now</a>
+  </section>  <section id="dashboard" class="section-box">
+    <h2>🔥 Our Elite Courses</h2>
+    <ul>
+      <li><a href="#">1. Modern Money-Making Mastery</a></li>
+      <li><a href="#">2. Dropshipping Bootcamp</a></li>
+      <li><a href="#">3. ChatGPT & AI Automation</a></li>
+      <li><a href="#">4. Social Media Content Empire</a></li>
+      <li><a href="#">5. Mental Toughness & Self-Discipline</a></li>
+      <li><a href="#">6. Freelancing King (Fiverr & Upwork)</a></li>
+      <li><a href="#">7. Teen Fitness & Alpha Routine</a></li>
+      <li><a href="#">8. Crypto & Stock Trading Starter</a></li>
+      <li><a href="#">9. Time Management for Winners</a></li>
+      <li><a href="#">10. Build Your Online Business</a></li>
+    </ul>
+  </section>  <section id="signup" class="section-box">
+    <h2>Create an Account</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>  <section id="login" class="section-box">
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>  <section id="chat" class="section-box">
+    <h2>Community Chat</h2>
+    <form>
+      <textarea placeholder="Type your message..."></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <section id="payment" class="section-box">
+    <h2>Make a Payment</h2>
+    <p>Click the button below to pay via Fampay:</p>
+    <form action="https://app.fampay.in/pay/7021462270@fam" target="_blank">
+      <button type="submit">Pay ₹299</button>
+    </form>
+  </section>  <footer>
+    &copy; 2025 The Real World. Join the revolution.
+  </footer>
+</body>
+</html>
